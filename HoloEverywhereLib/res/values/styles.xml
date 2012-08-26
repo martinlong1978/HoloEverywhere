@@ -1,127 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-
-    <style name="Theme.HoloEverywhereDefault.Sherlock" parent="Theme.Sherlock"/>
-    
-	<style name="Theme.HoloEverywhereDark.Sherlock" parent="Theme.Sherlock">
-		<item name="android:windowBackground">@drawable/background_holo_dark</item>
-		<item name="android:listViewStyle">@style/ListViewStyle</item>
-		<item name="android:buttonStyle">@style/ButtonHoloDark</item>
-		<item name="android:imageButtonStyle">@style/ButtonHoloDark</item>
-		<item name="android:editTextStyle">@style/EditTextHoloDark</item>
-		<item name="android:alertDialogStyle">@style/AlertDialogHoloDark</item>
-		<item name="android:radioButtonStyle">@style/RadioHoloDark</item>
-		<item name="android:checkboxStyle">@style/CheckBoxHoloDark</item>
-		<item name="android:seekBarStyle">@style/SeekBarHolo</item>
-		<item name="android:progressBarStyle">@style/ProgressBarHolo</item>
-		<item name="android:progressBarStyleSmall">@style/ProgressBarHolo.Small</item>
-		<item name="android:progressBarStyleLarge">@style/ProgressBarHolo.Large</item>
-		<item name="android:progressBarStyleHorizontal">@style/ProgressBarHolo.Horizontal</item>
-		<item name="android:spinnerStyle">@style/SpinnerDark</item>
-		<item name="android:spinnerItemStyle">@style/SpinnerItemDark</item>
-		<item name="android:spinnerDropDownItemStyle">@style/DropDownItemDark</item>
-		<item name="android:ratingBarStyle">@style/RatingBarDark</item>
-	</style>
-
-	<style name="Theme.HoloEverywhereLight.Sherlock" parent="Theme.Sherlock.Light">
-		<item name="android:windowBackground">@drawable/background_holo_light</item>
-		<item name="android:listViewStyle">@style/ListViewStyle</item>
-		<item name="android:buttonStyle">@style/ButtonHoloLight</item>
-		<item name="android:imageButtonStyle">@style/ButtonHoloLight</item>
-		<item name="android:editTextStyle">@style/EditTextHoloLight</item>
-		<item name="android:alertDialogStyle">@style/AlertDialogHoloLight</item>
-		<item name="android:radioButtonStyle">@style/RadioHoloLight</item>
-		<item name="android:checkboxStyle">@style/CheckBoxHoloLight</item>
-		<item name="android:seekBarStyle">@style/SeekBarHolo</item>
-		<item name="android:progressBarStyle">@style/ProgressBarHolo</item>
-		<item name="android:progressBarStyleSmall">@style/ProgressBarHolo.Small</item>
-		<item name="android:progressBarStyleLarge">@style/ProgressBarHolo.Large</item>
-		<item name="android:progressBarStyleHorizontal">@style/ProgressBarHolo.Horizontal</item>
-		<item name="android:spinnerStyle">@style/SpinnerLight</item>
-		<item name="android:spinnerItemStyle">@style/SpinnerItemLight</item>
-		<item name="android:spinnerDropDownItemStyle">@style/DropDownItemLight</item>
-		<item name="android:ratingBarStyle">@style/RatingBarLight</item>
-	</style>
-	
-	<style name="Theme.HoloEverywhereLight.DarkActionBar.Sherlock" parent="Theme.Sherlock.Light.DarkActionBar">
-		<item name="android:windowBackground">@drawable/background_holo_light</item>
-		<item name="android:listViewStyle">@style/ListViewStyle</item>
-		<item name="android:buttonStyle">@style/ButtonHoloLight</item>
-		<item name="android:imageButtonStyle">@style/ButtonHoloLight</item>
-		<item name="android:editTextStyle">@style/EditTextHoloLight</item>
-		<item name="android:alertDialogStyle">@style/AlertDialogHoloLight</item>
-		<item name="android:radioButtonStyle">@style/RadioHoloLight</item>
-		<item name="android:checkboxStyle">@style/CheckBoxHoloLight</item>
-		<item name="android:seekBarStyle">@style/SeekBarHolo</item>
-		<item name="android:progressBarStyle">@style/ProgressBarHolo</item>
-		<item name="android:progressBarStyleSmall">@style/ProgressBarHolo.Small</item>
-		<item name="android:progressBarStyleLarge">@style/ProgressBarHolo.Large</item>
-		<item name="android:progressBarStyleHorizontal">@style/ProgressBarHolo.Horizontal</item>
-		<item name="android:spinnerStyle">@style/SpinnerLight</item>
-		<item name="android:spinnerItemStyle">@style/SpinnerItemLight</item>
-		<item name="android:spinnerDropDownItemStyle">@style/DropDownItemLight</item>
-		<item name="android:ratingBarStyle">@style/RatingBarLight</item>
-	</style>
-
-	<style name="Theme.HoloEverywhereDark.Sherlock.ForceOverflow" parent="Theme.Sherlock.ForceOverflow">
-        <item name="android:windowBackground">@drawable/background_holo_dark</item>
-        <item name="android:listViewStyle">@style/ListViewStyle</item>
-        <item name="android:buttonStyle">@style/ButtonHoloDark</item>
-        <item name="android:imageButtonStyle">@style/ButtonHoloDark</item>
-        <item name="android:editTextStyle">@style/EditTextHoloDark</item>
-        <item name="android:alertDialogStyle">@style/AlertDialogHoloDark</item>
-        <item name="android:radioButtonStyle">@style/RadioHoloDark</item>
-        <item name="android:checkboxStyle">@style/CheckBoxHoloDark</item>
-        <item name="android:seekBarStyle">@style/SeekBarHolo</item>
-        <item name="android:progressBarStyle">@style/ProgressBarHolo</item>
-        <item name="android:progressBarStyleSmall">@style/ProgressBarHolo.Small</item>
-        <item name="android:progressBarStyleLarge">@style/ProgressBarHolo.Large</item>
-        <item name="android:progressBarStyleHorizontal">@style/ProgressBarHolo.Horizontal</item>
-        <item name="android:spinnerStyle">@style/SpinnerDark</item>
-        <item name="android:spinnerItemStyle">@style/SpinnerItemDark</item>
-        <item name="android:spinnerDropDownItemStyle">@style/DropDownItemDark</item>
-		<item name="android:ratingBarStyle">@style/RatingBarDark</item>
-    </style>
-
-	<style name="Theme.HoloEverywhereLight.Sherlock.ForceOverflow" parent="Theme.Sherlock.Light.ForceOverflow">
-        <item name="android:windowBackground">@drawable/background_holo_light</item>
-        <item name="android:listViewStyle">@style/ListViewStyle</item>
-        <item name="android:buttonStyle">@style/ButtonHoloLight</item>
-        <item name="android:imageButtonStyle">@style/ButtonHoloLight</item>
-        <item name="android:editTextStyle">@style/EditTextHoloLight</item>
-        <item name="android:alertDialogStyle">@style/AlertDialogHoloLight</item>
-        <item name="android:radioButtonStyle">@style/RadioHoloLight</item>
-        <item name="android:checkboxStyle">@style/CheckBoxHoloLight</item>
-        <item name="android:seekBarStyle">@style/SeekBarHolo</item>
-        <item name="android:progressBarStyle">@style/ProgressBarHolo</item>
-        <item name="android:progressBarStyleSmall">@style/ProgressBarHolo.Small</item>
-        <item name="android:progressBarStyleLarge">@style/ProgressBarHolo.Large</item>
-        <item name="android:progressBarStyleHorizontal">@style/ProgressBarHolo.Horizontal</item>
-        <item name="android:spinnerStyle">@style/SpinnerLight</item>
-        <item name="android:spinnerItemStyle">@style/SpinnerItemLight</item>
-        <item name="android:spinnerDropDownItemStyle">@style/DropDownItemLight</item>
-		<item name="android:ratingBarStyle">@style/RatingBarLight</item>
-    </style>
-
-	<style name="Theme.HoloEverywhereLight.DarkActionBar.Sherlock.ForceOverflow" parent="Theme.Sherlock.Light.DarkActionBar.ForceOverflow">
-        <item name="android:windowBackground">@drawable/background_holo_light</item>
-        <item name="android:listViewStyle">@style/ListViewStyle</item>
-        <item name="android:buttonStyle">@style/ButtonHoloLight</item>
-        <item name="android:imageButtonStyle">@style/ButtonHoloLight</item>
-        <item name="android:editTextStyle">@style/EditTextHoloLight</item>
-        <item name="android:alertDialogStyle">@style/AlertDialogHoloLight</item>
-        <item name="android:radioButtonStyle">@style/RadioHoloLight</item>
-        <item name="android:checkboxStyle">@style/CheckBoxHoloLight</item>
-        <item name="android:seekBarStyle">@style/SeekBarHolo</item>
-        <item name="android:progressBarStyle">@style/ProgressBarHolo</item>
-        <item name="android:progressBarStyleSmall">@style/ProgressBarHolo.Small</item>
-        <item name="android:progressBarStyleLarge">@style/ProgressBarHolo.Large</item>
-        <item name="android:progressBarStyleHorizontal">@style/ProgressBarHolo.Horizontal</item>
-        <item name="android:spinnerStyle">@style/SpinnerLight</item>
-        <item name="android:spinnerItemStyle">@style/SpinnerItemLight</item>
-        <item name="android:spinnerDropDownItemStyle">@style/DropDownItemLight</item>
-		<item name="android:ratingBarStyle">@style/RatingBarLight</item>
-    </style>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
 
 	<style name="Theme.HoloEverywhereDark" parent="android:Theme.NoTitleBar">
 		<item name="android:windowBackground">@drawable/background_holo_dark</item>
@@ -129,8 +7,8 @@
 		<item name="android:buttonStyle">@style/ButtonHoloDark</item>
 		<item name="android:imageButtonStyle">@style/ButtonHoloDark</item>
 		<item name="android:editTextStyle">@style/EditTextHoloDark</item>
-		<item name="android:alertDialogStyle">@style/AlertDialogHoloDark</item>
-		<item name="android:radioButtonStyle">@style/RadioHoloDark</item>
+<!-- 		<item name="android:alertDialogStyle">@style/AlertDialogHoloDark</item>
+ -->		<item name="android:radioButtonStyle">@style/RadioHoloDark</item>
 		<item name="android:checkboxStyle">@style/CheckBoxHoloDark</item>
 		<item name="android:seekBarStyle">@style/SeekBarHolo</item>
 		<item name="android:progressBarStyle">@style/ProgressBarHolo</item>
@@ -141,7 +19,6 @@
 		<item name="android:spinnerItemStyle">@style/SpinnerItemDark</item>
 		<item name="android:spinnerDropDownItemStyle">@style/DropDownItemDark</item>
 		<item name="android:ratingBarStyle">@style/RatingBarDark</item>
-
 	</style>
 
 	<style name="Theme.HoloEverywhereLight" parent="android:Theme.Light.NoTitleBar">
